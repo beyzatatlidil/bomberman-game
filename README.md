@@ -19,7 +19,7 @@ Bomberman-style game project developed in Unity for the Design Patterns course.
 
 This project is a 2D Bomberman-inspired game developed using Unity and C#.
 
-The objective of the project was to practice object-oriented programming principles, Unity game development, and software design concepts within a game environment.
+The aim of the project was to practice game development concepts, object-oriented programming principles, and software design approaches within a game environment.
 
 The game includes classic Bomberman mechanics such as:
 - Player movement
@@ -35,29 +35,29 @@ The game includes classic Bomberman mechanics such as:
 
 ✅ Player movement system  
 ✅ Bomb placement and timed explosions  
-✅ Explosion propagation in multiple directions  
-✅ Breakable and unbreakable wall system  
-✅ Tilemap-based level design  
-✅ Sprite-based 2D graphics  
+✅ Explosion propagation system  
+✅ Breakable and unbreakable walls  
+✅ Tilemap-based environment  
+✅ 2D sprite rendering  
 ✅ Unity prefab architecture  
-✅ Organized project structure  
+✅ Organized Unity project structure  
 
 ---
 
 # 🧩 Design Patterns & Software Concepts
 
-This project was developed as part of the Design Patterns course and focuses on:
+This project was developed for the Design Patterns course and focuses on:
 
 - Object-oriented programming principles
 - Modular project organization
+- Reusable game components
+- Separation of responsibilities
 - Component-based Unity architecture
-- Reusable game objects
-- Separation of responsibilities between scripts and assets
 
 The project also practices:
 - Game object interaction systems
-- Event-driven gameplay logic
-- Scene and asset management in Unity
+- Scene and asset management
+- Structured script organization in Unity
 
 ---
 
@@ -93,7 +93,7 @@ The game includes enemy interactions and obstacle-based gameplay mechanics inspi
 
 The project uses:
 - 2D sprite rendering
-- Tilemap-based environments
+- Tilemap-based level design
 - Pixel-art inspired assets
 - Organized prefab structures
 - Unity asset management system
@@ -155,7 +155,7 @@ The project contains:
 - Scene assets
 - Unity metadata files
 
-Unity `.meta` files are included intentionally to preserve asset references.
+Unity `.meta` files are included intentionally to preserve project references.
 
 ---
 
