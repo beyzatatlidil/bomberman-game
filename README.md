@@ -19,7 +19,7 @@ Bomberman-style game project developed in Unity for the Design Patterns course.
 
 This project is a 2D Bomberman-inspired game developed using Unity and C#.
 
-The aim of the project was to practice game development concepts, object-oriented programming principles, and software design approaches within a game environment.
+The objective of the project was to practice object-oriented programming principles, game development concepts, and software design approaches within a Unity game environment.
 
 The game includes classic Bomberman mechanics such as:
 - Player movement
@@ -28,6 +28,7 @@ The game includes classic Bomberman mechanics such as:
 - Breakable and unbreakable walls
 - Enemy interactions
 - Tilemap-based environments
+- Theme and environment management
 
 ---
 
@@ -37,27 +38,33 @@ The game includes classic Bomberman mechanics such as:
 ✅ Bomb placement and timed explosions  
 ✅ Explosion propagation system  
 ✅ Breakable and unbreakable walls  
+✅ Enemy interaction system  
 ✅ Tilemap-based environment  
 ✅ 2D sprite rendering  
 ✅ Unity prefab architecture  
+✅ Theme management system  
 ✅ Organized Unity project structure  
 
 ---
 
-# 🧩 Design Patterns & Software Concepts
+# 🧩 Design Patterns & Architecture
 
-This project was developed for the Design Patterns course and focuses on:
+This project was developed for the Design Patterns course and includes modular software design concepts within a Unity game environment.
 
-- Object-oriented programming principles
-- Modular project organization
-- Reusable game components
-- Separation of responsibilities
-- Component-based Unity architecture
+The project structure contains:
+- MVC-based organization
+- Reusable gameplay components
+- Pattern-oriented script grouping
+- Modular bomb, enemy, and power-up systems
+- Theme management structure
 
-The project also practices:
-- Game object interaction systems
-- Scene and asset management
-- Structured script organization in Unity
+The repository includes separated pattern categories such as:
+- Behavioral
+- Creational
+- Structural
+- Repository
+
+The architecture focuses on maintainability, modularity, and reusable game logic design.
 
 ---
 
@@ -89,6 +96,12 @@ The game includes enemy interactions and obstacle-based gameplay mechanics inspi
 
 ---
 
+## Power-Up System
+
+The project includes modular power-up mechanics and gameplay interaction systems.
+
+---
+
 # 🎨 Visual Design
 
 The project uses:
@@ -105,9 +118,22 @@ The project uses:
 ```text
 BombermanGame/
 │
-├── Assets/               # Sprites, prefabs, scenes, materials
-├── Packages/             # Unity package dependencies
-├── ProjectSettings/      # Unity project settings
+├── Assets/
+│   ├── Art/
+│   ├── Prefabs/
+│   ├── Scenes/
+│   ├── Scripts/
+│   │   ├── Bomb/
+│   │   ├── Enemy/
+│   │   ├── Environment/
+│   │   ├── Game/
+│   │   ├── MVC/
+│   │   ├── Patterns/
+│   │   └── PowerUp/
+│   └── Settings/
+│
+├── Packages/
+├── ProjectSettings/
 ├── .gitignore
 └── README.md
 ```
@@ -155,7 +181,7 @@ The project contains:
 - Scene assets
 - Unity metadata files
 
-Unity `.meta` files are included intentionally to preserve project references.
+Unity `.meta` files are included intentionally to preserve project references and project integrity.
 
 ---
 
@@ -163,7 +189,7 @@ Unity `.meta` files are included intentionally to preserve project references.
 
 - Only necessary Unity project files are included in this repository.
 - Cache and build folders are excluded using `.gitignore`.
-- Unity `.meta` files are required for project integrity.
+- Unity `.meta` files are required for correct asset referencing.
 
 ---
 
@@ -175,9 +201,10 @@ This project helped improve understanding of:
 - C# scripting
 - Object-oriented programming
 - Software design principles
+- Modular project organization
 - Tilemap systems
 - Game mechanics implementation
-- Unity project organization
+- Unity asset and scene management
 
 ---
 
